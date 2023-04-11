@@ -31,4 +31,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Ant
+      run: which ant
+
+    - name: Build with Ant
       run: ant -noinput -buildfile build.xml
