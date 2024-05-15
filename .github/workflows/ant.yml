@@ -30,5 +30,8 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
 
+    - name: list Ant
+      run: ls /usr/share/ant/lib
+      
     - name: Build with Ant
       run: ant -noinput -buildfile build.xml
